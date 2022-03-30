@@ -14,7 +14,7 @@ body{
     color: red;
 }
 .navbar-collapse{
-    margin-left: 350px;
+    /* margin-left: 350px; */
     padding: 10px;
 }
 
@@ -46,7 +46,7 @@ body{
 
 h1{
     text-align: center;
-    border-bottom: 3px dotted black;
+    border-bottom: 3px dotted rgb(131, 165, 76);
 }
 
 h2 {
@@ -144,7 +144,34 @@ h2 {
 }
 /* course end */
 
+/* chapter-1 style start*/
+.heading{
+    background-color: #11292b;
+    padding: 10px;
+    color: white;
+}
 
+.chapter-content{
+    background-color: rgb(231, 225, 216);
+    padding: 30px 10px 0px 10px;
+}
+
+.content{
+    padding-bottom: 10px;
+}
+
+.content p{
+    font-size: 1.2rem;
+}
+.content h4{
+    font-weight: bolder;
+    color: rgb(11, 58, 58);
+}
+
+.text-background{
+    background-color: yellow;
+}
+/* chapter-1 style end*/
 
 
 
