@@ -156,8 +156,21 @@ h2 {
     padding: 30px 10px 0px 10px;
 }
 
+.learn{
+    text-align: center;
+    background-color: aqua;
+    margin: 0 50px 30px 50px;
+}
+
+
+.learn h4{
+    text-align: center;
+    background-color: aqua;
+}
+
 .content{
     padding-bottom: 10px;
+    text-align: justify;
 }
 
 .content p{
@@ -170,6 +183,20 @@ h2 {
 
 .text-background{
     background-color: yellow;
+}
+
+.content text{
+    float: left;
+    background-color: aqua;
+    height: 300px;
+}
+.photo{
+    float: left;
+}
+
+.content img{
+    height: 300px;
+    width: 300px;
 }
 /* chapter-1 style end*/
 
