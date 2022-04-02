@@ -4,9 +4,6 @@
     
 }
 
-body{
-    }
-
 /* Navbar design start */
 .nav-link{
     font-size: 1.2rem;
@@ -23,7 +20,6 @@ body{
 
 /* test scrolling start */
 .scroll-txt{
-    
     font-size: 1.2rem;
     padding: 7px;
     background-color: gainsboro;
@@ -31,7 +27,7 @@ body{
 }
 
 .notice-section{
-    margin-top: 5px;
+    margin-top: 7px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -56,8 +52,9 @@ h2 {
 
 /* about me design start */  
 .about-me {
+    /* margin-top: 5px; */
     background-color: #39a4ac;
-    padding: 1% 7%;
+    padding: 5% 7%;
     color: white;
     /* text-align: center; */
     font-family: 'Montserrat', sans-serif;
@@ -83,7 +80,6 @@ h2 {
 .about-me-image{
     float: left;
 }
-
 
 .dotted-hr {
     border: dotted 6px white;
@@ -111,10 +107,10 @@ h2 {
 
 /* course start */
 .course{
-    margin-top: 4px;
+    /* margin-top: 4px; */
     /* background-color: #39a4ac; */
     background-color: rgb(175, 162, 131);
-    padding: 1% 3%;
+    padding: 5% 3%;
     color: white;
     /* text-align: center; */
     font-family: 'Montserrat', sans-serif;
@@ -199,6 +195,53 @@ h2 {
     width: 300px;
 }
 /* chapter-1 style end*/
+
+/* testimonials start */
+.client-img {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border: 4px solid #fff;
+    margin: 0px auto 20px;
+    border-radius: 100%;
+}
+.carousel-content {
+    padding: 50px 0px;
+}
+.carousel-content h3 span {
+    font-size: 17px;
+    font-weight: normal;
+    color: #e8e8e8;
+    text-transform: uppercase;
+}
+.client-img img {
+    width: 100%;
+    height: 100%;
+}
+.row{
+    padding: 3% 0%;
+}
+#testimonial {
+    background-color: #2555ad;
+    text-align: center;
+    padding: 40px 0px;
+    color: #fff;
+}
+#testimonial .carousel-control-prev,
+#testimonial .carousel-control-next {
+    font-size: 36px;
+}
+/* #testimonial h2 {
+
+    font-size: 40px;
+    font-style: italic;
+    border-bottom: 1px solid #7fbdff;
+    padding-bottom: 20px;
+    display: inline-block;
+} */
+
+
+/* testimonials end */
 
 
 
