@@ -120,7 +120,7 @@ h2 {
 .course-desc{
     color: black;
 }
-.card{
+.c-card{
     margin-top: 25px;
     box-shadow: 3px 4px 15px 1px rgb(59, 10, 59);
 }
@@ -244,6 +244,221 @@ h2 {
 /* testimonials end */
 
 /* about section start */
+.professional-experience {
+    padding: 1% 0%;
+}
 
+.about-card {
+    margin-top: 25px;
+    background-color: #a39e9e;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+    height: 700px;
+    
+}
+
+.professional-experience .card:hover {
+    box-shadow: 0 4px 8px 5px black;
+}
+
+.card-icon {
+    text-align: center;
+}
+
+.card-icon img {
+    margin-top: 20px;
+    width: 100px;
+}
+
+.rounded-image {
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+
+.skill-container {
+    padding-right: 45px;
+}
+
+.skill-container li {
+    list-style: none;
+    font-weight: bolder;
+    margin: 30px 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.skill-container li::before {
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    height: 10px;
+    width: 100%;
+    background-color: rgb(86, 86, 153, .5);
+    border-radius: 1000px;
+}
+
+.skill-container li::after {
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    height: 10px;
+    width: 0;
+    background-color: rgb(86, 86, 153, 1);
+    border-radius: 1000px;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.skill-container li.html::after {
+    animation-name: html;
+}
+
+@keyframes html {
+    to {
+        width: 90%;
+    }
+}
+
+.skill-container li.css::after {
+    animation-name: css;
+}
+
+@keyframes css {
+    to {
+        width: 80%;
+    }
+}
+
+.skill-container li.bs::after {
+    animation-name: bs;
+}
+
+@keyframes bs {
+    to {
+        width: 85%;
+    }
+}
+
+.skill-container li.js::after {
+    animation-name: js;
+}
+
+@keyframes js {
+    to {
+        width: 75%;
+    }
+}
+
+.skill-container li.jquery::after {
+    animation-name: jquery;
+}
+
+@keyframes jquery {
+    to {
+        width: 80%;
+    }
+}
+
+.skill-container li.c::after {
+    animation-name: c;
+}
+
+@keyframes c {
+    to {
+        width: 75%;
+    }
+}
+
+.skill-container li.php::after {
+    animation-name: php;
+}
+
+
+@keyframes php {
+    to {
+        width: 85%;
+    }
+}
+
+.skill-container li.sql::after {
+    animation-name: sql;
+}
+
+@keyframes sql {
+    to {
+        width: 75%;
+    }
+}
+
+
+.skill-container li.laravel::after {
+    animation-name: laravel;
+}
+
+@keyframes laravel {
+    to {
+        width: 65%;
+    }
+}
 /* about section end */
+
+/* contact start */
+.contact{
+    padding-top: 50px;
+    background-color: #39a4ac;
+    text-align: center;
+}
+
+.contact h2{
+    color: white;
+}
+.contact-photo{
+
+    padding: 1% 0%;
+
+}
+.contact-photo img{
+    width: 90%;
+    border-radius: 10px;
+}
+.contact-form{
+    padding: 0%;
+    text-align: center;
+    padding: 2% 0;
+
+}
+.contact-form input,
+    textarea {
+        width: 80%;
+        padding: 10px;
+        font-size: 1rem;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        resize: none;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+.contact-form button {
+    border: none;
+    border-radius: 12px;
+    background-color: #052d2f;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+}
+    
+/* contact end */
 
