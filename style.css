@@ -254,7 +254,7 @@ h2 {
     border-radius: 5px;
     padding: 10px;
     transition: 0.3s;
-    height: 750px;
+    height: 720px;
     
 }
 
@@ -462,3 +462,54 @@ h2 {
     
 /* contact end */
 
+/* footer start */
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.footer-menu a {
+    color: white;
+    display: block;
+    margin: 10px 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-1 a:hover {
+    color: gray;
+}
+.footer-map{
+    float: left;
+}
+
+.footer-menu{
+    float: left;
+}
+.footer-media{
+    float: left;
+    font-size: 1rem;
+    color: blue;
+    text-align: center;
+}
+
+
+.footer-media a{
+    float: left;
+    font-size: 1rem;
+    /* text-decoration: none; */
+    margin: 10px 5px;
+    display: block;
+}
+
+.map{
+    width: 350px;
+    height: 200px;
+}
+
+
+/* footer end */
